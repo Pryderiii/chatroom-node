@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "name": "chatroom-node",
+  "version": "1.0.0",
+  "description": "App de chat con Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart" : "nodemon server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pryderiii/chatroom-node.git"
+  },
+  "keywords": [
+    "Node",
+    "js",
+    "chat",
+    "socket.io"
+  ],
+  "author": "Pryderiii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pryderiii/chatroom-node/issues"
+  },
+  "homepage": "https://github.com/Pryderiii/chatroom-node#readme"
+}
